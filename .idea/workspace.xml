@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de1892c8-4dd6-4125-a953-89b1431f8947" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_02A7943A-4DDC-47DA-BF8C-DCC26AF78EFF" />
+  <component name="ProjectId" id="1jI3u8sszKfwIO4Xvit0j5BmIh2" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="manualOrder" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Knophy Share,,,MyShareExtension" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MyShareExtension" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Knophy Share" type="AppleAppExtensionRunConfiguration" factoryName="AppleAppExtension" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Knophy Share" TARGET_NAME="Knophy Share" CONFIG_NAME="Debug" SCHEME_NAME="Knophy Share" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="true" APP_EXTENSION_TARGET="MyShareExtension" EXTENSION_BUNDLE_ID="com.knophy.Knophy-Share.MyShareExtension" EXTENSION_TYPE_ID="com.apple.share-services">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list>
+        <app_extension BUNDLE_ID="com.knophy.Knophy-Share.MyShareExtension" EXTENSION_TYPE_ID="com.apple.share-services" />
+      </embedded_app_extension_list>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de1892c8-4dd6-4125-a953-89b1431f8947" name="Default Changelist" comment="" />
+      <created>1603477998456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603477998456</updated>
+      <workItem from="1603478011090" duration="3117000" />
+      <workItem from="1603556595153" duration="564000" />
+      <workItem from="1603557263486" duration="1371000" />
+      <workItem from="1603576668727" duration="3793000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="-1170" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603576291722">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="184" y="-1170" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603576291722" />
+    <state x="440" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478693299" />
+    <state x="256" y="-975" key="#com.intellij.ide.actionMacro.EditMacrosDialog" timestamp="1603577969321">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="256" y="-975" key="#com.intellij.ide.actionMacro.EditMacrosDialog/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603577969321" />
+    <state x="-96" y="-1078" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603576956455">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-96" y="-1078" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603576956455" />
+    <state x="-142" y="-1018" width="457" height="560" key="#com.intellij.tools.ToolEditorDialog" timestamp="1603577805795">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-142" y="-1018" width="457" height="560" key="#com.intellij.tools.ToolEditorDialog/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603577805795" />
+    <state width="1517" height="319" key="GridCell.Tab.0.bottom" timestamp="1603579512474">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.0.bottom/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512474" />
+    <state width="1358" height="330" key="GridCell.Tab.0.bottom/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="1517" height="319" key="GridCell.Tab.0.center" timestamp="1603579512473">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.0.center/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512473" />
+    <state width="1358" height="330" key="GridCell.Tab.0.center/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="1517" height="319" key="GridCell.Tab.0.left" timestamp="1603579512473">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.0.left/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512473" />
+    <state width="1358" height="330" key="GridCell.Tab.0.left/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799057" />
+    <state width="1517" height="319" key="GridCell.Tab.0.right" timestamp="1603579512474">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.0.right/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512474" />
+    <state width="1358" height="330" key="GridCell.Tab.0.right/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="1517" height="319" key="GridCell.Tab.1.bottom" timestamp="1603579512382">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.1.bottom/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512382" />
+    <state width="1358" height="330" key="GridCell.Tab.1.bottom/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799059" />
+    <state width="1517" height="319" key="GridCell.Tab.1.center" timestamp="1603579512382">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.1.center/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512382" />
+    <state width="1358" height="330" key="GridCell.Tab.1.center/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="1517" height="319" key="GridCell.Tab.1.left" timestamp="1603579512381">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.1.left/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512381" />
+    <state width="1358" height="330" key="GridCell.Tab.1.left/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="1517" height="319" key="GridCell.Tab.1.right" timestamp="1603579512382">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="1517" height="319" key="GridCell.Tab.1.right/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579512382" />
+    <state width="1358" height="330" key="GridCell.Tab.1.right/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478799058" />
+    <state width="915" height="552" key="NewXcodeProjectWizard" timestamp="1603576104776">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="915" height="552" key="NewXcodeProjectWizard/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603576104776" />
+    <state width="600" height="400" key="NewXcodeProjectWizard/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478545958" />
+    <state x="-404" y="-1217" key="SettingsEditor" timestamp="1603580131463">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-404" y="-1217" key="SettingsEditor/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603580131463" />
+    <state x="-484" y="-1414" width="2538" height="1408" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603579488517">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="-484" y="-1414" width="2538" height="1408" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603579488517" />
+    <state x="284" y="-1090" width="1021" height="933" key="search.everywhere.popup" timestamp="1603578290852">
+      <screen x="-486" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="284" y="-1090" width="1021" height="933" key="search.everywhere.popup/0.23.1680.1027/-486.-1417.2560.1417@-486.-1417.2560.1417" timestamp="1603578290852" />
+    <state x="505" y="260" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027/-486.-1417.2560.1417@0.23.1680.1027" timestamp="1603478313719" />
+  </component>
+</project>

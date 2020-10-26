@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D6D24218999F2F38A09838 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D6DE3FBDEC2FB2CB9A7F54 /* MainInterface.storyboard */; };
+		20D6D28A16B150BAEDB0C4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D6DFA3D0BA343937B35FCA /* Assets.xcassets */; };
+		20D6D2D50E909B4CF917407E /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6DE7C934B15F5D6AAD879 /* ExtensionView.swift */; };
+		20D6D3720F36D506D890CD35 /* AddContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90675FC2544D66000028F37 /* AddContentViewModel.swift */; };
+		20D6D5A6112CD6E55414E05D /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6DE7C934B15F5D6AAD879 /* ExtensionView.swift */; };
+		20D6D782930E1F98BF25E9ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D6D85CE27B20F75BD127CB /* Preview Assets.xcassets */; };
+		20D6D7D2ED59586719A74A08 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D6DE3FBDEC2FB2CB9A7F54 /* MainInterface.storyboard */; };
+		20D6D95FA408CEF445185CCA /* Knophy_ShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6D46612D88E7F311A0B55 /* Knophy_ShareApp.swift */; };
+		20D6DB1715CADB2310F6D4FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D6DB7843131EC756CD896C /* ContentView.swift */; };
+		E90675FD2544D66000028F37 /* AddContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90675FC2544D66000028F37 /* AddContentViewModel.swift */; };
+		E9E85C4425435C7E0027CA7A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E85C4325435C7E0027CA7A /* ShareViewController.swift */; };
+		E9E85C4B25435C7E0027CA7A /* MyShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9E85C4125435C7E0027CA7A /* MyShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9E85C4925435C7E0027CA7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D6D5A2837B2AD674181855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9E85C4025435C7E0027CA7A;
+			remoteInfo = MyShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9E85C4F25435C7E0027CA7A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9E85C4B25435C7E0027CA7A /* MyShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20D6D46612D88E7F311A0B55 /* Knophy_ShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knophy_ShareApp.swift; sourceTree = "<group>"; };
+		20D6D4D4224CA989FE74B8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		20D6D51B011C4264BE936F27 /* Knophy Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knophy Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D6D85CE27B20F75BD127CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20D6DB7843131EC756CD896C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20D6DE3FBDEC2FB2CB9A7F54 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		20D6DE7C934B15F5D6AAD879 /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		20D6DFA3D0BA343937B35FCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90675FC2544D66000028F37 /* AddContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContentViewModel.swift; sourceTree = "<group>"; };
+		E9E85C4125435C7E0027CA7A /* MyShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E85C4325435C7E0027CA7A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		E9E85C4825435C7E0027CA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D6D2424960A6461410D8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E85C3E25435C7E0027CA7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D6D477D72F3B8E094ED6F2 /* Knophy Share */ = {
+			isa = PBXGroup;
+			children = (
+				20D6D4D4224CA989FE74B8C2 /* Info.plist */,
+				20D6DFA3D0BA343937B35FCA /* Assets.xcassets */,
+				20D6DADE4FA49A690C3B7072 /* Preview Content */,
+				20D6D46612D88E7F311A0B55 /* Knophy_ShareApp.swift */,
+				20D6DB7843131EC756CD896C /* ContentView.swift */,
+			);
+			path = "Knophy Share";
+			sourceTree = "<group>";
+		};
+		20D6D4C19B2207AD5B3BEA77 = {
+			isa = PBXGroup;
+			children = (
+				E9E85C4225435C7E0027CA7A /* MyShareExtension */,
+				20D6D64A828E511A5816AC4D /* Products */,
+				20D6D477D72F3B8E094ED6F2 /* Knophy Share */,
+			);
+			sourceTree = "<group>";
+		};
+		20D6D64A828E511A5816AC4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D6D51B011C4264BE936F27 /* Knophy Share.app */,
+				E9E85C4125435C7E0027CA7A /* MyShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D6DADE4FA49A690C3B7072 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20D6D85CE27B20F75BD127CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9E85C4225435C7E0027CA7A /* MyShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E9E85C4325435C7E0027CA7A /* ShareViewController.swift */,
+				E9E85C4825435C7E0027CA7A /* Info.plist */,
+				20D6DE7C934B15F5D6AAD879 /* ExtensionView.swift */,
+				E90675FC2544D66000028F37 /* AddContentViewModel.swift */,
+				20D6DE3FBDEC2FB2CB9A7F54 /* MainInterface.storyboard */,
+			);
+			path = MyShareExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D6D7585B808326DAD0A75F /* Knophy Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D6D17125945933A1DF1D05 /* Build configuration list for PBXNativeTarget "Knophy Share" */;
+			buildPhases = (
+				20D6DDB6C322C6F8EC700141 /* Sources */,
+				20D6D2424960A6461410D8FC /* Frameworks */,
+				20D6D36EA9B25393162FB5BE /* Resources */,
+				E9E85C4F25435C7E0027CA7A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E85C4A25435C7E0027CA7A /* PBXTargetDependency */,
+			);
+			name = "Knophy Share";
+			productName = "Knophy Share";
+			productReference = 20D6D51B011C4264BE936F27 /* Knophy Share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9E85C4025435C7E0027CA7A /* MyShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E85C4C25435C7E0027CA7A /* Build configuration list for PBXNativeTarget "MyShareExtension" */;
+			buildPhases = (
+				E9E85C3D25435C7E0027CA7A /* Sources */,
+				E9E85C3E25435C7E0027CA7A /* Frameworks */,
+				E9E85C3F25435C7E0027CA7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyShareExtension;
+			productName = MyShareExtension;
+			productReference = E9E85C4125435C7E0027CA7A /* MyShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D6D5A2837B2AD674181855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				TargetAttributes = {
+					E9E85C4025435C7E0027CA7A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 20D6D1EAAE2B7D9F0334DA8B /* Build configuration list for PBXProject "Knophy Share" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 20D6D4C19B2207AD5B3BEA77;
+			productRefGroup = 20D6D64A828E511A5816AC4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D6D7585B808326DAD0A75F /* Knophy Share */,
+				E9E85C4025435C7E0027CA7A /* MyShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D6D36EA9B25393162FB5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D6D28A16B150BAEDB0C4DA /* Assets.xcassets in Resources */,
+				20D6D782930E1F98BF25E9ED /* Preview Assets.xcassets in Resources */,
+				20D6D7D2ED59586719A74A08 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E85C3F25435C7E0027CA7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D6D24218999F2F38A09838 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D6DDB6C322C6F8EC700141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D6D95FA408CEF445185CCA /* Knophy_ShareApp.swift in Sources */,
+				20D6DB1715CADB2310F6D4FF /* ContentView.swift in Sources */,
+				20D6D5A6112CD6E55414E05D /* ExtensionView.swift in Sources */,
+				20D6D3720F36D506D890CD35 /* AddContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E85C3D25435C7E0027CA7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E85C4425435C7E0027CA7A /* ShareViewController.swift in Sources */,
+				20D6D2D50E909B4CF917407E /* ExtensionView.swift in Sources */,
+				E90675FD2544D66000028F37 /* AddContentViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9E85C4A25435C7E0027CA7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9E85C4025435C7E0027CA7A /* MyShareExtension */;
+			targetProxy = E9E85C4925435C7E0027CA7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20D6D116CACC423C23D42867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D6D2D99CC69C9371C63508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"Knophy Share/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Knophy Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knophy.Knophy-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20D6D660762F28CC5801B9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"Knophy Share/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Knophy Share/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knophy.Knophy-Share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D6D704BB23F350249F2AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9E85C4D25435C7E0027CA7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knophy.Knophy-Share.MyShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9E85C4E25435C7E0027CA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.knophy.Knophy-Share.MyShareExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D6D17125945933A1DF1D05 /* Build configuration list for PBXNativeTarget "Knophy Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D6D660762F28CC5801B9C9 /* Debug */,
+				20D6D2D99CC69C9371C63508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D6D1EAAE2B7D9F0334DA8B /* Build configuration list for PBXProject "Knophy Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D6D704BB23F350249F2AA7 /* Debug */,
+				20D6D116CACC423C23D42867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E85C4C25435C7E0027CA7A /* Build configuration list for PBXNativeTarget "MyShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E85C4D25435C7E0027CA7A /* Debug */,
+				E9E85C4E25435C7E0027CA7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D6D5A2837B2AD674181855 /* Project object */;
+}
